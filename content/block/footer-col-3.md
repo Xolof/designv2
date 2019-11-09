@@ -1,3 +1,5 @@
-#### Footer col 3
+#### Personligt
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
++ [Olofs GitHub](https://github.com/Xolof)
++ [Det här projektet på GitHub](https://github.com/Xolof/designv2)
++ [olofjohansson.dev](https://olofjohansson.dev)
