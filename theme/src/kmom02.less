@@ -1,0 +1,68 @@
+/*!
+ * LESS version of the stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom02.
+ */
+
+/*
+* Import mixins
+*/
+// @import "mixin/clearfix.less";
+
+
+/**
+* Normalize the style
+*/
+@import "normalize.css/normalize.less";
+
+
+/**
+* Font Awesome
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ //@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base.less";
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout.less";
+@import "layout/layout_kmom02.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+// Här kan man "overrida" variabler som definierats i modulerna.
+// Det kan vara bra om man till exempel vill ha olika färger i olika teman.
+@bgColor: #c7e9a1;
+@footerColor: #000070;
+@maxBgColor: #5b694a;
+@borderColor: #cfcfcf;
