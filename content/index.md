@@ -18,7 +18,7 @@ views:
 Olofs me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=350" class="left" caption="Bild på Olof och en fisk som fick simma vidare"]
+[FIGURE src="image/me.jpg?w=350" class="left" caption="Bild på Olof och en fisk"]
 
 Hej, mitt nam är Olof Johansson. Jag har mina rötter i Klippan i nordvästra Skåne men för tillfället håller jag till i Thailand.
 
