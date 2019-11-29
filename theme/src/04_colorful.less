@@ -1,0 +1,148 @@
+/*!
+ * Colorful stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+@import "kmom04.less";
+
+// Element colors
+@textColor: #0A0A0A;
+@bgColor: #B5B9FF;
+@footerColor: #82B36D;
+@maxBgColor: #9A9EFF;
+@mobileColor: #0A0A0A;
+@maxButtonSubmenuBgColor: @maxBgColor;
+@borderColor: #333;
+@footerTextColor: #0A0A0A;
+@footerHeaderColor: #0A0A0A;
+@hoverColor: #fafafa;
+@navBottomColor: @hoverColor;
+@headerColor: #5459B3;
+@headerTextColor: #fafafa;
+@boxColor: #FFC3A8;
+@sidebarColor: #b7d4ab;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+@fontFamilyBody: 'Rubik', sans-serif;
+@fontFamilyHeadings: 'Courgette', cursive;
+
+// Font size
+@fontSizeBody: 18px;
+
+@magicNumber: 24px;
+
+// Header borders
+@colorH1BorderBottom: @hoverColor;
+@colorH2BorderBottom: @hoverColor;
+@colorH3BorderBottom: @hoverColor;
+@colorH4BorderBottom: @hoverColor;
+@colorH5BorderBottom: @hoverColor;
+@colorH6BorderBottom: @hoverColor;
+
+.site-logo {
+    display: none;
+}
+
+// Restore the flash region
+.region-flash {
+    display: initial;
+}
+
+a {
+    color: #00d;
+}
+
+
+.article{
+    a {
+        background: #ff7e42;
+        color: @textColor;
+        text-decoration: none;
+        transition: 0.1s;
+
+        &:visited {
+            background: #ffcbb3;
+        }
+
+        &:hover {
+            background: #ff481a;
+            color: @hoverColor;
+        }
+    }
+
+    img {
+        border-radius: 2px;
+    }
+}
+
+.site-logo-text {
+    top: 7px;
+}
+
+.site-logo-text a {
+    font-family: 'Pacifico', cursive;
+}
+
+
+.my-navbar li a {
+    padding: 1.3em 0.6em 0.4em;
+    font-family: @fontFamilyHeadings;
+    background: @headerColor;
+    color: @headerTextColor;
+    text-shadow: 1px 1px 4px #333;
+
+    &:hover {
+        border-bottom: solid 6px @hoverColor;
+        background: @headerColor;
+        color: @headerTextColor
+    }
+}
+
+.author-byline {
+    background: @boxColor;
+    border: 1px solid #adadad;
+    img {
+        border-radius: 4px;
+    }
+}
+
+
+.toc li a:hover {
+    color: @menuColorDark;
+}
+
+#rm-menu-button {
+    color: @menuColorDark;
+}
+
+blockquote {
+    border-left: 0;
+}
+
+.footer-column-x ul li a:hover {
+    color: @textColor;
+    text-decoration: underline @hoverColor;
+}
+
+.breadcrumb-list ul li > a,
+.next-previous div a {
+    &:hover {
+        color: @textColor;
+    }
+}
+
+.wrap-sidebar,
+.region-flash,
+.author-byline {
+    border-radius: 4px;
+}
+
+
+.wrap-sidebar .block {
+    padding: 0 0.6em;
+}

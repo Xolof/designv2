@@ -1,0 +1,56 @@
+/*!
+ * Minimalistic stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+@import "kmom04.less";
+
+// Element colors
+@bgColor: #f4f4f4;
+@footerColor: #f4f4f4;
+@maxBgColor: @bgColor;
+@mobileColor: #333;
+@maxButtonSubmenuBgColor: #d6d6d6;
+@borderColor: #cfcfcf;
+@footerTextColor: #333;
+@footerHeaderColor: #333;
+@hoverColor: #0000d6;
+@navBottomColor: @menuColor;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro&display=swap'); // Import 'Source Sans Pro' and 'Roboto Mono'
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); // Import 'Raleway'
+// @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap'); // Import 'Special Elite'
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap'); // Audiowide
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+@fontFamilyHeadings: 'Raleway', sans-serif;
+
+// Font size
+@fontSizeBody: 18px;
+
+@magicNumber: 24px;
+
+// Header borders
+@colorH1BorderBottom: #666;
+@colorH2BorderBottom: #CCC;
+@colorH3BorderBottom: #e4e4e4;
+@colorH4BorderBottom: #e4e4e4;
+@colorH5BorderBottom: #e4e4e4;
+@colorH6BorderBottom: #e4e4e4;
+
+// Get rid of the logo and flash region
+.site-logo,
+.region-flash {
+    display: none;
+}
+
+.site-logo-text a {
+    font-family: 'Audiowide', cursive;;
+}
+
+
+.my-navbar li a {
+    padding: 1.3em 0.6em 0.4em;
+    font-family: @fontFamilyHeadings;
+}

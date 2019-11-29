@@ -1,0 +1,200 @@
+/*!
+ * Dark stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+@import "kmom04.less";
+
+// Element colors
+@textColor: #cfcfcf;
+@bgColor: #393a3d;
+@secondaryBgColor: #1f1f1f;
+@footerColor: @secondaryBgColor;
+@maxBgColor: @secondaryBgColor;
+@mobileColor: @textColor;
+@maxButtonSubmenuBgColor: @maxBgColor;
+@borderColor: #ccc;
+@footerTextColor: @textColor;
+@footerHeaderColor: @textColor;
+@hoverColor: @textColor;
+@navBottomColor: @hoverColor;
+@headerColor: @secondaryBgColor;
+@headerTextColor: @textColor;
+@boxColor: @secondaryBgColor;
+@sidebarColor: @secondaryBgColor;
+
+@linkColor: #5252ff;
+@linkColorHover: #5252ff;
+@linkColorVisited: #c90ec9;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@fontFamilyBody: 'Lato', sans-serif;
+@fontFamilyHeadings: 'Inconsolata', monospace;
+
+// Font size
+@fontSizeBody: 18px;
+
+@magicNumber: 24px;
+
+// Header borders
+@colorH1BorderBottom: @hoverColor;
+@colorH2BorderBottom: @hoverColor;
+@colorH3BorderBottom: @hoverColor;
+@colorH4BorderBottom: @hoverColor;
+@colorH5BorderBottom: @hoverColor;
+@colorH6BorderBottom: @hoverColor;
+
+.site-logo {
+    display: none;
+}
+
+// Restore the flash region
+.region-flash {
+    display: initial;
+    opacity: 0.75;
+}
+
+.article,
+.wrap-sidebar {
+
+    a {
+        color: @linkColor;
+        text-decoration: none;
+        transition: 0.1s;
+
+        &:visited {
+            color: @linkColorVisited;
+        }
+
+        &:hover {
+            color: @linkColorHover;
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        border-radius: 2px;
+        opacity: 0.9;
+    }
+}
+
+.toc li {
+
+    .section-header a,
+    a {
+        color: @linkColor;
+        text-decoration: none;
+        transition: 0.1s;
+
+        &:visited {
+            color: @linkColorVisited;
+        }
+    }
+
+    > a:hover {
+        color: @linkColorHover;
+        text-decoration: none;
+    }
+}
+
+
+.site-logo-text {
+    top: 5px;
+    left: 5px;
+}
+
+.site-logo-text a {
+    font-family: 'Special Elite', cursive;
+    color: @textColor;
+}
+
+
+.my-navbar li a {
+    padding: 0.75em 0.6em 0.4em;
+    font-size: 1.4em;
+    font-family: @fontFamilyHeadings;
+    background: @headerColor;
+    color: @headerTextColor;
+
+    &:hover {
+        border-bottom: solid 6px @hoverColor;
+        background: @headerColor;
+        color: @headerTextColor
+    }
+}
+
+.author-byline {
+    background: @boxColor;
+    border: 1px solid #adadad;
+    img {
+        border-radius: 4px;
+    }
+}
+
+
+.toc li a {
+
+    &:hover {
+        border-bottom: 8px solid transparent;
+        text-decoration: underline @linkColorHover;
+    }
+}
+
+.toc li.section-header a {
+    color: @textColor;
+}
+
+#rm-menu-button {
+    color: @textColor;
+}
+
+.rm-max .rm-mobile .rm-submenu-button:hover {
+    background-color: #333;
+}
+
+blockquote {
+    border-left: 0;
+    color: @textColor;
+}
+
+code {
+    color: @bgColor;
+}
+
+.footer-column-x ul li a:hover {
+    color: @textColor;
+    text-decoration: underline @hoverColor;
+}
+
+.breadcrumb-list ul li > a,
+.next-previous div a {
+
+    color: #5bcf50;
+    text-decoration: none;
+
+    &:hover {
+        color: #35e425;
+        border: 2px solid transparent;
+        text-decoration: underline;
+    }
+}
+
+.wrap-sidebar,
+.region-flash,
+.author-byline {
+    border-radius: 2px;
+}
+
+.wrap-sidebar .block {
+    padding: 0 0.6em;
+}
+
+.outer-wrap-header {
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+}
