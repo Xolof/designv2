@@ -4933,7 +4933,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 8px;
   margin-top: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
   position: relative;
   z-index: 1;
 }
@@ -5013,8 +5012,8 @@ h1 {
   font-size: 2.375em;
   line-height: 1.12280702;
   font-weight: normal;
-  border-bottom: 2px solid #007;
-  margin-bottom: 22px;
+  border-bottom: 1px solid #666;
+  margin-bottom: 23px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -5031,8 +5030,8 @@ h2 {
   font-size: 1.875em;
   line-height: 1.42222222;
   font-weight: normal;
-  margin-bottom: 22px;
-  border-bottom: 2px solid rgba(0, 0, 119, 0.815);
+  margin-bottom: 23px;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -5041,8 +5040,8 @@ h3 {
   font-size: 1.75em;
   line-height: 1.52380952;
   font-weight: normal;
-  margin-bottom: 22px;
-  border-bottom: 2px solid rgba(0, 0, 119, 0.521);
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -5051,8 +5050,8 @@ h4 {
   font-size: 1.5em;
   line-height: 1.77777778;
   font-weight: normal;
-  margin-bottom: 22px;
-  border-bottom: 2px solid rgba(0, 0, 119, 0.521);
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5060,8 +5059,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 22px;
-  border-bottom: 2px solid rgba(0, 0, 119, 0.521);
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -5069,8 +5068,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 22px;
-  border-bottom: 2px solid rgba(0, 0, 119, 0.521);
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;

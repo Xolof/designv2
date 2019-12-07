@@ -1,0 +1,121 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**
+ * Variables
+ */
+@bgColor: #f3f3f3;
+@headerColor: #f3f3f3;
+@borderColor: #ccc;
+@textColor: #0A0A0A;
+
+/**
+ * General
+ */
+
+ html {
+    background: @footerColor;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+// Activate the typographic grid base font
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    background: @bgColor;
+    color: @textColor;
+}
+
+// Adapt typographic grid to my style.
+#desinax-hgrid.activateDefaultTypography();
+
+.site-logo-text-icon img{
+    position: relative;
+    top: 10px;
+    left: 7px;
+}
+
+.site-logo-text {
+    position: relative;
+    top: 7px;
+}
+
+.site-logo-text a {
+    font-size: 2em;
+    color: #000;
+    text-decoration: none;
+}
+
+
+figcaption {
+    font-style: italic;
+}
+
+/* Wrap all */
+.wrap-all {
+    padding-top: 80px;
+}
+
+/* outer wrap */
+
+.outer-wrap-main {
+    min-height: 32em;
+}
+
+.outer-wrap-header {
+    height: 70px;
+    width: 100%;
+    background: @headerColor;
+    box-shadow: 2px 2px 8px #5c5c5c;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+
+/* Flash message */
+.info,
+.warning {
+    padding: 2em;
+    border-radius: 4px;
+    position: relative;
+}
+
+.info {
+    background: #7490e4;
+    border: 4px solid blue;
+}
+
+.warning {
+    background: #f72f2f;
+    border: 4px solid rgb(161, 0, 0);
+}
+
+.info p,
+.warning p {
+    margin: 0;
+}
+
+.flashmessage-icon {
+    position: absolute;
+    right: 0.2em;
+    bottom: 0.2em;
+    font-size: 3em;
+}
+
+
+.rm-button {
+    font-size: 2em;
+}
+
+.rm-default ul li {
+    box-shadow: none;
+}
+
+// Make breadcrumb smaller
+
+.outer-wrap-breadcrumb {
+    font-size: 0.8em;
+}

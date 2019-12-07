@@ -64,9 +64,19 @@ return [
                         "text" => "Utvärdering av färgval",
                         "url" => "rapport/fargschema",
                         "title" => "Utvärdering av färgval.",
+                    ],
+                    [
+                        "text" => "Utvärdering av laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Utvärdering av laddningstid",
                     ]
                 ],
             ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild"
         ],
         [
             "text" => "Om",

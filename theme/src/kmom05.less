@@ -1,0 +1,145 @@
+/*!
+ * LESS version of the stylesheet for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom05.
+ */
+
+/*
+* Import mixins
+*/
+// @import "mixin/clearfix.less";
+
+
+/**
+* Normalize the style
+*/
+@import "normalize.css/normalize.less";
+
+
+/**
+* Font Awesome
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ //@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
+
+// Enable style from the Desinax Figure and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom05.less";
+
+
+
+
+/**
+ * Import the vertical grid.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+ @import "layout/layout_kmom05.less";
+
+// Default grid, change to fit your requirements.
+@columnWidth:   30; // default: 30
+@gutterWidth:   10; // default: 10
+@columns:       24;
+@gridType:      "float"; // "flex"
+
+
+
+
+/**
+ * Import the typographic grid.
+ */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+// Show the typographic grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/theme/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/responsive_kmom05.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+// Här kan man "overrida" variabler som definierats i modulerna.
+// Det kan vara bra om man till exempel vill ha olika färger i olika teman.
+@bgColor: #f4f4f4;
+@footerColor: #591281;
+@maxBgColor: @bgColor;
+@mobileColor: #333;
+@maxButtonSubmenuBgColor: #d6d6d6;
+@borderColor: #cfcfcf;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+@fontFamilyBody: 'Raleway', sans-serif; // "serif" // "sans-serif"
+@fontFamilyHeadings: 'Libre Baskerville', serif;
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;

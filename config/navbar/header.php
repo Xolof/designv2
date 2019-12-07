@@ -60,12 +60,22 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Utvärdering av färgval",
+                        "text" => "Färgval",
                         "url" => "rapport/fargschema",
-                        "title" => "Utvärdering av färgval.",
+                        "title" => "Utvärdering av färgval",
+                    ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Utvärdering av laddningstid",
                     ]
                 ],
             ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild"
         ],
         [
             "text" => "Om",
