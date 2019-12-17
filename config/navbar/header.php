@@ -68,6 +68,21 @@ return [
                         "text" => "Laddningstid",
                         "url" => "rapport/laddningstid",
                         "title" => "Utvärdering av laddningstid",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprincip",
+                        "title" => "Utvärdering av designprinciper",
+                    ],
+                    [
+                        "text" => "Tema element",
+                        "url" => "rapport/designelement",
+                        "title" => "Utvärdering av designelement",
+                    ],
+                    [
+                        "text" => "Tema principer",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Utvärdering av designprinciper",
                     ]
                 ],
             ],

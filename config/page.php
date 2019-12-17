@@ -44,7 +44,7 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
+                "siteLogoText"  => "&#127876; Design",
                 "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
                 "siteLogoTextIconAlt" => "Löv-bild",
             ],

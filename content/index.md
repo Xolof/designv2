@@ -5,7 +5,7 @@ views:
         region: flash
         template: anax/v2/image/default
         data:
-            src: "image/theme/fib_leaf.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0"
+            src: "image/theme/christmas-tree.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0"
     byline:
         region: main
         template: anax/v2/block/default

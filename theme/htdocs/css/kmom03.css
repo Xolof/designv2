@@ -5011,7 +5011,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.12280702;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #304cc8;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -5030,7 +5030,7 @@ h2 {
   line-height: 1.42222222;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #304cc8;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -5040,7 +5040,7 @@ h3 {
   line-height: 1.52380952;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #304cc8;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -5050,7 +5050,7 @@ h4 {
   line-height: 1.77777778;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #304cc8;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5059,7 +5059,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #304cc8;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -5068,7 +5068,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #304cc8;
 }
 p {
   margin-bottom: 24px;
