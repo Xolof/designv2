@@ -3,6 +3,8 @@ Tema med fokus på designprinciper
 Tanken med temat är framförallt att utforska olika möjligheter för att skapa en känsla av djup.
 Några andra principer som har studerats är rörelse, repetition och hierarki.
 
+Här är en [länk till temat](http://www.student.bth.se/~oljh19/dbwebb-kurser/design/me/redovisa/htdocs/rapport/designprinciper?style=kmom06-designprinciper).
+
 Djup/Perspektiv
 -----------------------
 För att få lite mer känsla av djup och flera dimensioner har bakgrundsbilder använts i body och många element har försetts med skuggor.

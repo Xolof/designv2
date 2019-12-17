@@ -3,6 +3,8 @@ Tema med fokus på designelement
 
 Temat är tänkt som ett smått busigt jultema som använder texturer, bilder och typsnitt för att eventuellt ge en känsla av julpyssel eller julklappsverkstad.
 
+Här är en [länk till temat](http://www.student.bth.se/~oljh19/dbwebb-kurser/design/me/redovisa/htdocs/rapport/designelement?style=kmom06-designelement).
+
 Linjer
 -----------------------
 I texten på canva.com kan vi läsa att linjer kan användas för att skapa betoning. I det här temat används linjerna framförallt för att betona rubriker och navbaren. Linjer används även för att markera när användaren hovrar över en länk i navbaren och när en länk i navbaren är vald.
